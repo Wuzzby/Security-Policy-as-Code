@@ -1,19 +1,22 @@
-# Security-Policy-as-Code
+# Security Policy-as-Code
 
-This repository contains a modular, version-controlled set of security policies written in Markdown and mapped to NIST 800-53 Rev. 5 and ISO/IEC 27001:2022 controls. It is designed to simulate how real-world organizations document, manage, and enforce cybersecurity governance.
+This project simulates a lightweight but realistic GRC (Governance, Risk, and Compliance) documentation stack for a security program. It contains modular policies, framework mappings, and operational artifacts to demonstrate GRC knowledge, risk-based thinking, and documentation control.
+
+> Built for both learning and portfolio use.
 
 ---
 
 ## Project Overview
 
-This project demonstrates:
+This lab demonstrates:
 
-- Policy design aligned with major compliance frameworks (NIST, ISO)
-- Control mapping and traceability
-- Git-based version control for documentation governance
-- Simulation of stakeholder review using GitHub Issues
+- Policy development aligned with NIST 800-53 and ISO/IEC 27001
+- Control mapping traceability
+- Git-based policy version control
+- GRC operational artifacts: audit checklists, risk register, and policy exception workflows
+- Simulation of real-world review cycles using GitHub Issues
 
-It is designed as both a learning tool and a professional portfolio artifact for GRC, compliance, and cybersecurity analyst roles.
+It’s built to mirror what an entry-level GRC Analyst, Cybersecurity Compliance Analyst, or Policy Coordinator might work on in an actual security program.
 
 ---
 
@@ -27,48 +30,64 @@ It is designed as both a learning tool and a professional portfolio artifact for
 | `endpoint-security.md`   | Sets endpoint protection standards for laptops, VMs, and phones   |
 | `acceptable-use.md`      | Clarifies responsible use of corporate systems and data           |
 
-Each policy is scoped, versioned, and mapped to relevant controls.
+Each policy is:
+- Written in Markdown
+- Mapped to NIST/ISO controls
+- Structured for modular reuse in audits and control documentation
 
 ---
 
 ## Control Framework Mappings
 
-You can view the complete policy-to-framework crosswalk here:
+View the full policy-to-framework crosswalk in Excel format:
 
 ➡ [GRC_Policy_Framework_Mappings.xlsx](mappings/GRC_Policy_Framework_Mappings.xlsx)
 
-This document includes mappings for:
+Covers:
 - NIST SP 800-53 Rev. 5
 - ISO/IEC 27001:2022 Clauses
 
 ---
 
+## GRC Artifacts
+
+These simulate the tools and documentation a GRC analyst would create or maintain.
+
+| Artifact                         | Description                                                               |
+|----------------------------------|---------------------------------------------------------------------------|
+| [`audit-checklist.md`](artifacts/audit-checklist.md)          | Questions to validate control implementation against written policies     |
+| [`policy-exception-request.md`](artifacts/policy-exception-request.md) | Template for documenting approved deviations from policy                  |
+| [`risk-register.xlsx`](artifacts/risk-register.xlsx)          | Live tracker of risks, their mitigation status, and mapped control IDs    |
+
+Each of these supports compliance tracking, internal reviews, and risk management workflows.
+
+---
+
 ## GRC Skills Demonstrated
 
-- Policy Development & Documentation  
-- Framework Mapping (NIST, ISO)  
-- Documentation Version Control  
-- Cross-functional Process Simulation (reviews, exceptions)  
-- Portfolio Presentation & Communication
+- Policy Drafting & Documentation  
+- Framework Control Mapping (NIST, ISO)  
+- Control Validation (Audit Checklists)  
+- Risk Assessment and Tracking  
+- Policy Exception Handling  
+- Documentation Governance via Git  
 
 ---
 
 ## Simulated Workflows
 
-- GitHub Issues were used to simulate policy review cycles
-- Future additions may include:
-  - Risk register
-  - Audit checklist templates
-  - Exception request forms
+- GitHub Issues simulate internal stakeholder review workflows
+- Commit history acts as an audit trail for documentation changes
+- All files are portable and modifiable for use in labs or future environments
 
 ---
 
 ## Why This Matters
 
-Strong GRC programs depend on clear, enforceable policies aligned to compliance frameworks. This project shows that I understand not just technical security—but how to govern it, enforce it, and present it professionally.
+Security isn’t just about detection—it’s about governance, assurance, and audit-readiness. This project reflects what early-career GRC professionals are expected to understand, and helps bridge technical knowledge with risk-based decision making.
 
 ---
 
 ## License
 
-This project is licensed under the MIT License. You are free to reuse the structure or templates with attribution.
+Licensed under the MIT License. Use and remix freely with attribution.
