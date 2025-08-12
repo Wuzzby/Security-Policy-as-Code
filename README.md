@@ -109,6 +109,3 @@ By including both policies and evidence-style artifacts, this project demonstrat
 ## License
 
 Licensed under the MIT License. Use and remix freely with attribution.
-## License
-
-Licensed under the MIT License. Use and remix freely with attribution.
